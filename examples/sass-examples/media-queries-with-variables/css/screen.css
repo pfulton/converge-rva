@@ -1,0 +1,20 @@
+/* line 5, ../sass/partials/_layout.scss */
+.primary-content {
+  width: 100%;
+}
+@media (min-width: 30em) {
+  /* line 5, ../sass/partials/_layout.scss */
+  .primary-content {
+    font-size: 110%;
+    margin: 0 auto;
+    width: 90%;
+  }
+}
+@media (min-width: 50em) {
+  /* line 5, ../sass/partials/_layout.scss */
+  .primary-content {
+    float: left;
+    margin-right: 3.5%;
+    width: 56%;
+  }
+}

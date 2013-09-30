@@ -1,0 +1,13 @@
+// Breakpoint for Sass & Compass: http://breakpoint-sass.com/
+
+// create $breakpoint variables like so
+
+// let breakpoint convert your px values to ems!
+$breakpoint-to-ems: true;
+
+// assume min-width (by default) if only a number
+$bp-sm: 320px;
+$bp-md: 460px;
+$bp-lg: 600px;
+$bp-xl: 800px;
+$bp-xxl: 1024px;

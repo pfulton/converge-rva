@@ -1,0 +1,15 @@
+/* line 5, ../sass/partials/_usage.scss */
+.primary-navigation {
+  color: #888888;
+}
+
+/* line 10, ../sass/partials/_usage.scss */
+h2 a {
+  color: #888888;
+  text-decoration: none;
+}
+/* line 14, ../sass/partials/_usage.scss */
+h2 a:hover, h2 a:focus {
+  color: #d5d5d5;
+  text-decoration: underline;
+}

@@ -1,0 +1,22 @@
+// define some breakpoints here
+$break-small: 30em;
+$break-medium: 50em;
+
+.primary-content {
+  width: 100%;
+
+  // nested media queries are allowed and encouraged
+  @media (min-width: $break-small) {
+    font-size: 110%;
+    margin: 0 auto;
+    width: 90%;
+  }
+  @media (min-width: $break-medium) {
+    float: left;
+    margin-right: 3.5%;
+    width: 56%;
+  }
+}
+
+// more information on media queries & sass:
+// http://thesassway.com/intermediate/responsive-web-design-in-sass-using-media-queries-in-sass-32

@@ -1,0 +1,21 @@
+@import "compass";
+
+@import "partials/base";
+
+@media screen and (min-width: 600px) {
+  @import "partials/medium";  
+}
+
+// other mq's to use if you so choose
+
+// @media screen and (min-width: 900px) {
+//   @import "layout/large";  
+// }
+
+// @media screen and (min-width: 1100px) {
+//   @import "layout/large-xl";  
+// }
+
+// @media screen and (min-width: 1200px) {
+//   @import "layout/huge";  
+// }

@@ -1,0 +1,13 @@
+@mixin button {
+  @include border-radius(4px);
+  background-color: $link-color;
+  color: $background-color;
+  padding: 0.5em 1em;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    background-color: $link-color-hover;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,19 @@
+// these variables are defined in _variables.scss
+// the "cascade" comes into play when you use @import in your main compilation file.
+// you'll want to make sure that you @import your variables first, before referencing them elsewhere.
+
+.primary-navigation {
+  color: $text-color;
+}
+
+h2 {
+  a {
+    color: $heading-color;
+    text-decoration: none;
+    &:hover,
+    &:focus {
+      color: $text-color-subtle;
+      text-decoration: underline;
+    }
+  }
+}

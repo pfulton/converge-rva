@@ -1,0 +1,32 @@
+/* line 3, ../sass/partials/_layout.scss */
+.primary-content {
+  clear: both;
+  margin: 0 auto 2em auto;
+  width: 95%;
+}
+@media (min-width: 28.75em) {
+  /* line 3, ../sass/partials/_layout.scss */
+  .primary-content {
+    display: inline;
+    float: left;
+    margin-right: 1.5%;
+    margin-left: 0;
+    width: 60%;
+  }
+}
+
+/* line 17, ../sass/partials/_layout.scss */
+.secondary-content {
+  clear: both;
+  margin: 0 auto 2em auto;
+  width: 95%;
+}
+@media (min-width: 28.75em) {
+  /* line 17, ../sass/partials/_layout.scss */
+  .secondary-content {
+    display: inline;
+    float: left;
+    margin: 0;
+    width: 38.5%;
+  }
+}

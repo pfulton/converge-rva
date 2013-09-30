@@ -1,0 +1,6 @@
+// A basic example of a way to use variables in Sass & Compass.
+// Docs: http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#variables_
+
+$text-color: #888;
+$heading-color: $text-color;
+$text-color-subtle: lighten($text-color, 30%);

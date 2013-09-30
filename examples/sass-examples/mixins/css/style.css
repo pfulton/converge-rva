@@ -1,0 +1,17 @@
+/* line 1, ../sass/partials/_usage.scss */
+.add-to-cart {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  background-color: #555555;
+  color: white;
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+/* line 9, ../sass/partials/_mixins.scss */
+.add-to-cart:hover, .add-to-cart:focus {
+  background-color: #2f2f2f;
+  text-decoration: none;
+}

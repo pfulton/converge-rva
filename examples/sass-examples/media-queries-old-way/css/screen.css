@@ -1,0 +1,26 @@
+/* line 4, ../sass/partials/_base.scss */
+.primary-content,
+.secondary-content {
+  clear: both;
+  margin: 0 auto 2em auto;
+  width: 95%;
+}
+
+@media screen and (min-width: 600px) {
+  /* line 3, ../sass/partials/_medium.scss */
+  .primary-content {
+    display: inline;
+    float: left;
+    margin-right: 1.5%;
+    margin-left: 0;
+    width: 60%;
+  }
+
+  /* line 11, ../sass/partials/_medium.scss */
+  .secondary-content {
+    display: inline;
+    float: left;
+    margin: 0;
+    width: 38.5%;
+  }
+}

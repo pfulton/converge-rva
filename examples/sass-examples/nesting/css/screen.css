@@ -1,0 +1,13 @@
+/* line 1, ../sass/partials/_usage.scss */
+.primary-navigation {
+  background-color: red;
+}
+/* line 3, ../sass/partials/_usage.scss */
+.primary-navigation ul {
+  margin: 1em 0;
+}
+/* line 5, ../sass/partials/_usage.scss */
+.primary-navigation ul li {
+  display: inline-block;
+  margin: 0 0.5em;
+}
