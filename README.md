@@ -1,5 +1,5 @@
 # Be Kind to Your Future Self: Creating Better Front End Processes
-*Sass/Compass and HAML/HTML examples from my presentation at ConvergeRVA 2013*
+*Sass/Compass and Haml/HTML examples from my presentation at ConvergeRVA 2013*
 
 ## Resources
 * [Sass](http://sass-lang.com/)
